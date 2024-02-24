@@ -1,4 +1,8 @@
 D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\.Code\.work -B D:\.Code\.work\cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: D:/.Code/.work/cmake-build-debug
+CMake Error at CMakeLists.txt:35 (add_executable):
+  The target name "2_23_B优化" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!
