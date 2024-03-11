@@ -865,6 +865,732 @@ build 2_23_B.exe: CXX_EXECUTABLE_LINKER__2_23_B_Debug CMakeFiles/2_23_B.dir/code
   TARGET_IMPLIB = lib2_23_B.dll.a
   TARGET_PDB = 2_23_B.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_23_C
+
+
+#############################################
+# Order-only phony target for 2_23_C
+
+build cmake_object_order_depends_target_2_23_C: phony || CMakeFiles/2_23_C.dir
+
+build CMakeFiles/2_23_C.dir/codeforces/2_23_C.cpp.obj: CXX_COMPILER__2_23_C_unscanned_Debug D$:/.Code/.work/codeforces/2_23_C.cpp || cmake_object_order_depends_target_2_23_C
+  DEP_FILE = CMakeFiles\2_23_C.dir\codeforces\2_23_C.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2_23_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_23_C.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_23_C
+
+
+#############################################
+# Link the executable 2_23_C.exe
+
+build 2_23_C.exe: CXX_EXECUTABLE_LINKER__2_23_C_Debug CMakeFiles/2_23_C.dir/codeforces/2_23_C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2_23_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2_23_C.exe
+  TARGET_IMPLIB = lib2_23_C.dll.a
+  TARGET_PDB = 2_23_C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_27_A
+
+
+#############################################
+# Order-only phony target for 2_27_A
+
+build cmake_object_order_depends_target_2_27_A: phony || CMakeFiles/2_27_A.dir
+
+build CMakeFiles/2_27_A.dir/codeforces/2_27_A.cpp.obj: CXX_COMPILER__2_27_A_unscanned_Debug D$:/.Code/.work/codeforces/2_27_A.cpp || cmake_object_order_depends_target_2_27_A
+  DEP_FILE = CMakeFiles\2_27_A.dir\codeforces\2_27_A.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2_27_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_27_A.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_27_A
+
+
+#############################################
+# Link the executable 2_27_A.exe
+
+build 2_27_A.exe: CXX_EXECUTABLE_LINKER__2_27_A_Debug CMakeFiles/2_27_A.dir/codeforces/2_27_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2_27_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2_27_A.exe
+  TARGET_IMPLIB = lib2_27_A.dll.a
+  TARGET_PDB = 2_27_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_27_B
+
+
+#############################################
+# Order-only phony target for 2_27_B
+
+build cmake_object_order_depends_target_2_27_B: phony || CMakeFiles/2_27_B.dir
+
+build CMakeFiles/2_27_B.dir/codeforces/2_27_B.cpp.obj: CXX_COMPILER__2_27_B_unscanned_Debug D$:/.Code/.work/codeforces/2_27_B.cpp || cmake_object_order_depends_target_2_27_B
+  DEP_FILE = CMakeFiles\2_27_B.dir\codeforces\2_27_B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2_27_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_27_B.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_27_B
+
+
+#############################################
+# Link the executable 2_27_B.exe
+
+build 2_27_B.exe: CXX_EXECUTABLE_LINKER__2_27_B_Debug CMakeFiles/2_27_B.dir/codeforces/2_27_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2_27_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2_27_B.exe
+  TARGET_IMPLIB = lib2_27_B.dll.a
+  TARGET_PDB = 2_27_B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_27_C
+
+
+#############################################
+# Order-only phony target for 2_27_C
+
+build cmake_object_order_depends_target_2_27_C: phony || CMakeFiles/2_27_C.dir
+
+build CMakeFiles/2_27_C.dir/codeforces/2_27_C.cpp.obj: CXX_COMPILER__2_27_C_unscanned_Debug D$:/.Code/.work/codeforces/2_27_C.cpp || cmake_object_order_depends_target_2_27_C
+  DEP_FILE = CMakeFiles\2_27_C.dir\codeforces\2_27_C.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2_27_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_27_C.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_27_C
+
+
+#############################################
+# Link the executable 2_27_C.exe
+
+build 2_27_C.exe: CXX_EXECUTABLE_LINKER__2_27_C_Debug CMakeFiles/2_27_C.dir/codeforces/2_27_C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2_27_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2_27_C.exe
+  TARGET_IMPLIB = lib2_27_C.dll.a
+  TARGET_PDB = 2_27_C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2_29B
+
+
+#############################################
+# Order-only phony target for T2_29B
+
+build cmake_object_order_depends_target_T2_29B: phony || CMakeFiles/T2_29B.dir
+
+build CMakeFiles/T2_29B.dir/codeforces/T2_29B.cpp.obj: CXX_COMPILER__T2_29B_unscanned_Debug D$:/.Code/.work/codeforces/T2_29B.cpp || cmake_object_order_depends_target_T2_29B
+  DEP_FILE = CMakeFiles\T2_29B.dir\codeforces\T2_29B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T2_29B.dir
+  OBJECT_FILE_DIR = CMakeFiles\T2_29B.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2_29B
+
+
+#############################################
+# Link the executable T2_29B.exe
+
+build T2_29B.exe: CXX_EXECUTABLE_LINKER__T2_29B_Debug CMakeFiles/T2_29B.dir/codeforces/T2_29B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T2_29B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T2_29B.exe
+  TARGET_IMPLIB = libT2_29B.dll.a
+  TARGET_PDB = T2_29B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2_29C
+
+
+#############################################
+# Order-only phony target for T2_29C
+
+build cmake_object_order_depends_target_T2_29C: phony || CMakeFiles/T2_29C.dir
+
+build CMakeFiles/T2_29C.dir/codeforces/T2_29C.cpp.obj: CXX_COMPILER__T2_29C_unscanned_Debug D$:/.Code/.work/codeforces/T2_29C.cpp || cmake_object_order_depends_target_T2_29C
+  DEP_FILE = CMakeFiles\T2_29C.dir\codeforces\T2_29C.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T2_29C.dir
+  OBJECT_FILE_DIR = CMakeFiles\T2_29C.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2_29C
+
+
+#############################################
+# Link the executable T2_29C.exe
+
+build T2_29C.exe: CXX_EXECUTABLE_LINKER__T2_29C_Debug CMakeFiles/T2_29C.dir/codeforces/T2_29C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T2_29C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T2_29C.exe
+  TARGET_IMPLIB = libT2_29C.dll.a
+  TARGET_PDB = T2_29C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2_29D
+
+
+#############################################
+# Order-only phony target for T2_29D
+
+build cmake_object_order_depends_target_T2_29D: phony || CMakeFiles/T2_29D.dir
+
+build CMakeFiles/T2_29D.dir/codeforces/T2_29D.cpp.obj: CXX_COMPILER__T2_29D_unscanned_Debug D$:/.Code/.work/codeforces/T2_29D.cpp || cmake_object_order_depends_target_T2_29D
+  DEP_FILE = CMakeFiles\T2_29D.dir\codeforces\T2_29D.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T2_29D.dir
+  OBJECT_FILE_DIR = CMakeFiles\T2_29D.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2_29D
+
+
+#############################################
+# Link the executable T2_29D.exe
+
+build T2_29D.exe: CXX_EXECUTABLE_LINKER__T2_29D_Debug CMakeFiles/T2_29D.dir/codeforces/T2_29D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T2_29D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T2_29D.exe
+  TARGET_IMPLIB = libT2_29D.dll.a
+  TARGET_PDB = T2_29D.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2_29E
+
+
+#############################################
+# Order-only phony target for T2_29E
+
+build cmake_object_order_depends_target_T2_29E: phony || CMakeFiles/T2_29E.dir
+
+build CMakeFiles/T2_29E.dir/codeforces/T2_29E.cpp.obj: CXX_COMPILER__T2_29E_unscanned_Debug D$:/.Code/.work/codeforces/T2_29E.cpp || cmake_object_order_depends_target_T2_29E
+  DEP_FILE = CMakeFiles\T2_29E.dir\codeforces\T2_29E.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T2_29E.dir
+  OBJECT_FILE_DIR = CMakeFiles\T2_29E.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2_29E
+
+
+#############################################
+# Link the executable T2_29E.exe
+
+build T2_29E.exe: CXX_EXECUTABLE_LINKER__T2_29E_Debug CMakeFiles/T2_29E.dir/codeforces/T2_29E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T2_29E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T2_29E.exe
+  TARGET_IMPLIB = libT2_29E.dll.a
+  TARGET_PDB = T2_29E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/codeforces/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/.Code/.work/codeforces/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\codeforces\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/codeforces/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2_29F
+
+
+#############################################
+# Order-only phony target for T2_29F
+
+build cmake_object_order_depends_target_T2_29F: phony || CMakeFiles/T2_29F.dir
+
+build CMakeFiles/T2_29F.dir/codeforces/T2_29F.cpp.obj: CXX_COMPILER__T2_29F_unscanned_Debug D$:/.Code/.work/codeforces/T2_29F.cpp || cmake_object_order_depends_target_T2_29F
+  DEP_FILE = CMakeFiles\T2_29F.dir\codeforces\T2_29F.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T2_29F.dir
+  OBJECT_FILE_DIR = CMakeFiles\T2_29F.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2_29F
+
+
+#############################################
+# Link the executable T2_29F.exe
+
+build T2_29F.exe: CXX_EXECUTABLE_LINKER__T2_29F_Debug CMakeFiles/T2_29F.dir/codeforces/T2_29F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T2_29F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T2_29F.exe
+  TARGET_IMPLIB = libT2_29F.dll.a
+  TARGET_PDB = T2_29F.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3_1_A
+
+
+#############################################
+# Order-only phony target for 3_1_A
+
+build cmake_object_order_depends_target_3_1_A: phony || CMakeFiles/3_1_A.dir
+
+build CMakeFiles/3_1_A.dir/codeforces/3_1_A.cpp.obj: CXX_COMPILER__3_1_A_unscanned_Debug D$:/.Code/.work/codeforces/3_1_A.cpp || cmake_object_order_depends_target_3_1_A
+  DEP_FILE = CMakeFiles\3_1_A.dir\codeforces\3_1_A.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3_1_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\3_1_A.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3_1_A
+
+
+#############################################
+# Link the executable 3_1_A.exe
+
+build 3_1_A.exe: CXX_EXECUTABLE_LINKER__3_1_A_Debug CMakeFiles/3_1_A.dir/codeforces/3_1_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3_1_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3_1_A.exe
+  TARGET_IMPLIB = lib3_1_A.dll.a
+  TARGET_PDB = 3_1_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3_1_B
+
+
+#############################################
+# Order-only phony target for 3_1_B
+
+build cmake_object_order_depends_target_3_1_B: phony || CMakeFiles/3_1_B.dir
+
+build CMakeFiles/3_1_B.dir/codeforces/3_1_B.cpp.obj: CXX_COMPILER__3_1_B_unscanned_Debug D$:/.Code/.work/codeforces/3_1_B.cpp || cmake_object_order_depends_target_3_1_B
+  DEP_FILE = CMakeFiles\3_1_B.dir\codeforces\3_1_B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3_1_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\3_1_B.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3_1_B
+
+
+#############################################
+# Link the executable 3_1_B.exe
+
+build 3_1_B.exe: CXX_EXECUTABLE_LINKER__3_1_B_Debug CMakeFiles/3_1_B.dir/codeforces/3_1_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3_1_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3_1_B.exe
+  TARGET_IMPLIB = lib3_1_B.dll.a
+  TARGET_PDB = 3_1_B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T_3_7_A
+
+
+#############################################
+# Order-only phony target for T_3_7_A
+
+build cmake_object_order_depends_target_T_3_7_A: phony || CMakeFiles/T_3_7_A.dir
+
+build CMakeFiles/T_3_7_A.dir/codeforces/T_3_7_A.cpp.obj: CXX_COMPILER__T_3_7_A_unscanned_Debug D$:/.Code/.work/codeforces/T_3_7_A.cpp || cmake_object_order_depends_target_T_3_7_A
+  DEP_FILE = CMakeFiles\T_3_7_A.dir\codeforces\T_3_7_A.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T_3_7_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\T_3_7_A.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T_3_7_A
+
+
+#############################################
+# Link the executable T_3_7_A.exe
+
+build T_3_7_A.exe: CXX_EXECUTABLE_LINKER__T_3_7_A_Debug CMakeFiles/T_3_7_A.dir/codeforces/T_3_7_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T_3_7_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T_3_7_A.exe
+  TARGET_IMPLIB = libT_3_7_A.dll.a
+  TARGET_PDB = T_3_7_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T_3_7_B
+
+
+#############################################
+# Order-only phony target for T_3_7_B
+
+build cmake_object_order_depends_target_T_3_7_B: phony || CMakeFiles/T_3_7_B.dir
+
+build CMakeFiles/T_3_7_B.dir/codeforces/T_3_7_B.cpp.obj: CXX_COMPILER__T_3_7_B_unscanned_Debug D$:/.Code/.work/codeforces/T_3_7_B.cpp || cmake_object_order_depends_target_T_3_7_B
+  DEP_FILE = CMakeFiles\T_3_7_B.dir\codeforces\T_3_7_B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T_3_7_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\T_3_7_B.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T_3_7_B
+
+
+#############################################
+# Link the executable T_3_7_B.exe
+
+build T_3_7_B.exe: CXX_EXECUTABLE_LINKER__T_3_7_B_Debug CMakeFiles/T_3_7_B.dir/codeforces/T_3_7_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T_3_7_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T_3_7_B.exe
+  TARGET_IMPLIB = libT_3_7_B.dll.a
+  TARGET_PDB = T_3_7_B.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T_3_7_E
+
+
+#############################################
+# Order-only phony target for T_3_7_E
+
+build cmake_object_order_depends_target_T_3_7_E: phony || CMakeFiles/T_3_7_E.dir
+
+build CMakeFiles/T_3_7_E.dir/codeforces/T_3_7_E.cpp.obj: CXX_COMPILER__T_3_7_E_unscanned_Debug D$:/.Code/.work/codeforces/T_3_7_E.cpp || cmake_object_order_depends_target_T_3_7_E
+  DEP_FILE = CMakeFiles\T_3_7_E.dir\codeforces\T_3_7_E.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T_3_7_E.dir
+  OBJECT_FILE_DIR = CMakeFiles\T_3_7_E.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T_3_7_E
+
+
+#############################################
+# Link the executable T_3_7_E.exe
+
+build T_3_7_E.exe: CXX_EXECUTABLE_LINKER__T_3_7_E_Debug CMakeFiles/T_3_7_E.dir/codeforces/T_3_7_E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T_3_7_E.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T_3_7_E.exe
+  TARGET_IMPLIB = libT_3_7_E.dll.a
+  TARGET_PDB = T_3_7_E.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target L1_003
+
+
+#############################################
+# Order-only phony target for L1_003
+
+build cmake_object_order_depends_target_L1_003: phony || CMakeFiles/L1_003.dir
+
+build CMakeFiles/L1_003.dir/PTA/L1_003.cpp.obj: CXX_COMPILER__L1_003_unscanned_Debug D$:/.Code/.work/PTA/L1_003.cpp || cmake_object_order_depends_target_L1_003
+  DEP_FILE = CMakeFiles\L1_003.dir\PTA\L1_003.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\L1_003.dir
+  OBJECT_FILE_DIR = CMakeFiles\L1_003.dir\PTA
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target L1_003
+
+
+#############################################
+# Link the executable L1_003.exe
+
+build L1_003.exe: CXX_EXECUTABLE_LINKER__L1_003_Debug CMakeFiles/L1_003.dir/PTA/L1_003.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\L1_003.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = L1_003.exe
+  TARGET_IMPLIB = libL1_003.dll.a
+  TARGET_PDB = L1_003.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target L1_004
+
+
+#############################################
+# Order-only phony target for L1_004
+
+build cmake_object_order_depends_target_L1_004: phony || CMakeFiles/L1_004.dir
+
+build CMakeFiles/L1_004.dir/PTA/L1_004.cpp.obj: CXX_COMPILER__L1_004_unscanned_Debug D$:/.Code/.work/PTA/L1_004.cpp || cmake_object_order_depends_target_L1_004
+  DEP_FILE = CMakeFiles\L1_004.dir\PTA\L1_004.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\L1_004.dir
+  OBJECT_FILE_DIR = CMakeFiles\L1_004.dir\PTA
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target L1_004
+
+
+#############################################
+# Link the executable L1_004.exe
+
+build L1_004.exe: CXX_EXECUTABLE_LINKER__L1_004_Debug CMakeFiles/L1_004.dir/PTA/L1_004.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\L1_004.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = L1_004.exe
+  TARGET_IMPLIB = libL1_004.dll.a
+  TARGET_PDB = L1_004.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target L1_005
+
+
+#############################################
+# Order-only phony target for L1_005
+
+build cmake_object_order_depends_target_L1_005: phony || CMakeFiles/L1_005.dir
+
+build CMakeFiles/L1_005.dir/PTA/L1_005.cpp.obj: CXX_COMPILER__L1_005_unscanned_Debug D$:/.Code/.work/PTA/L1_005.cpp || cmake_object_order_depends_target_L1_005
+  DEP_FILE = CMakeFiles\L1_005.dir\PTA\L1_005.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\L1_005.dir
+  OBJECT_FILE_DIR = CMakeFiles\L1_005.dir\PTA
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target L1_005
+
+
+#############################################
+# Link the executable L1_005.exe
+
+build L1_005.exe: CXX_EXECUTABLE_LINKER__L1_005_Debug CMakeFiles/L1_005.dir/PTA/L1_005.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\L1_005.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = L1_005.exe
+  TARGET_IMPLIB = libL1_005.dll.a
+  TARGET_PDB = L1_005.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target L1_006
+
+
+#############################################
+# Order-only phony target for L1_006
+
+build cmake_object_order_depends_target_L1_006: phony || CMakeFiles/L1_006.dir
+
+build CMakeFiles/L1_006.dir/PTA/L1_006.cpp.obj: CXX_COMPILER__L1_006_unscanned_Debug D$:/.Code/.work/PTA/L1_006.cpp || cmake_object_order_depends_target_L1_006
+  DEP_FILE = CMakeFiles\L1_006.dir\PTA\L1_006.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\L1_006.dir
+  OBJECT_FILE_DIR = CMakeFiles\L1_006.dir\PTA
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target L1_006
+
+
+#############################################
+# Link the executable L1_006.exe
+
+build L1_006.exe: CXX_EXECUTABLE_LINKER__L1_006_Debug CMakeFiles/L1_006.dir/PTA/L1_006.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\L1_006.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = L1_006.exe
+  TARGET_IMPLIB = libL1_006.dll.a
+  TARGET_PDB = L1_006.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CrackMe
+
+
+#############################################
+# Order-only phony target for CrackMe
+
+build cmake_object_order_depends_target_CrackMe: phony || CMakeFiles/CrackMe.dir
+
+build CMakeFiles/CrackMe.dir/CrackMe.cpp.obj: CXX_COMPILER__CrackMe_unscanned_Debug D$:/.Code/.work/CrackMe.cpp || cmake_object_order_depends_target_CrackMe
+  DEP_FILE = CMakeFiles\CrackMe.dir\CrackMe.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CrackMe.dir
+  OBJECT_FILE_DIR = CMakeFiles\CrackMe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CrackMe
+
+
+#############################################
+# Link the executable CrackMe.exe
+
+build CrackMe.exe: CXX_EXECUTABLE_LINKER__CrackMe_Debug CMakeFiles/CrackMe.dir/CrackMe.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CrackMe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CrackMe.exe
+  TARGET_IMPLIB = libCrackMe.dll.a
+  TARGET_PDB = CrackMe.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T3_9_A
+
+
+#############################################
+# Order-only phony target for T3_9_A
+
+build cmake_object_order_depends_target_T3_9_A: phony || CMakeFiles/T3_9_A.dir
+
+build CMakeFiles/T3_9_A.dir/codeforces/T3_9_A.cpp.obj: CXX_COMPILER__T3_9_A_unscanned_Debug D$:/.Code/.work/codeforces/T3_9_A.cpp || cmake_object_order_depends_target_T3_9_A
+  DEP_FILE = CMakeFiles\T3_9_A.dir\codeforces\T3_9_A.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T3_9_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\T3_9_A.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T3_9_A
+
+
+#############################################
+# Link the executable T3_9_A.exe
+
+build T3_9_A.exe: CXX_EXECUTABLE_LINKER__T3_9_A_Debug CMakeFiles/T3_9_A.dir/codeforces/T3_9_A.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T3_9_A.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T3_9_A.exe
+  TARGET_IMPLIB = libT3_9_A.dll.a
+  TARGET_PDB = T3_9_A.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T3_9_B
+
+
+#############################################
+# Order-only phony target for T3_9_B
+
+build cmake_object_order_depends_target_T3_9_B: phony || CMakeFiles/T3_9_B.dir
+
+build CMakeFiles/T3_9_B.dir/codeforces/T3_9_B.cpp.obj: CXX_COMPILER__T3_9_B_unscanned_Debug D$:/.Code/.work/codeforces/T3_9_B.cpp || cmake_object_order_depends_target_T3_9_B
+  DEP_FILE = CMakeFiles\T3_9_B.dir\codeforces\T3_9_B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\T3_9_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\T3_9_B.dir\codeforces
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T3_9_B
+
+
+#############################################
+# Link the executable T3_9_B.exe
+
+build T3_9_B.exe: CXX_EXECUTABLE_LINKER__T3_9_B_Debug CMakeFiles/T3_9_B.dir/codeforces/T3_9_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\T3_9_B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = T3_9_B.exe
+  TARGET_IMPLIB = libT3_9_B.dll.a
+  TARGET_PDB = T3_9_B.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -931,15 +1657,59 @@ build 2_23_A: phony 2_23_A.exe
 
 build 2_23_B: phony 2_23_B.exe
 
+build 2_23_C: phony 2_23_C.exe
+
+build 2_27_A: phony 2_27_A.exe
+
+build 2_27_B: phony 2_27_B.exe
+
+build 2_27_C: phony 2_27_C.exe
+
 build 2_6_A: phony 2_6_A.exe
 
 build 2_6_C: phony 2_6_C.exe
+
+build 3_1_A: phony 3_1_A.exe
+
+build 3_1_B: phony 3_1_B.exe
+
+build CrackMe: phony CrackMe.exe
 
 build L1_001: phony L1_001.exe
 
 build L1_002: phony L1_002.exe
 
+build L1_003: phony L1_003.exe
+
+build L1_004: phony L1_004.exe
+
+build L1_005: phony L1_005.exe
+
+build L1_006: phony L1_006.exe
+
+build T2_29B: phony T2_29B.exe
+
+build T2_29C: phony T2_29C.exe
+
+build T2_29D: phony T2_29D.exe
+
+build T2_29E: phony T2_29E.exe
+
+build T2_29F: phony T2_29F.exe
+
+build T3_9_A: phony T3_9_A.exe
+
+build T3_9_B: phony T3_9_B.exe
+
+build T_3_7_A: phony T_3_7_A.exe
+
+build T_3_7_B: phony T_3_7_B.exe
+
+build T_3_7_E: phony T_3_7_E.exe
+
 build flagB: phony flagB.exe
+
+build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -949,7 +1719,7 @@ build flagB: phony flagB.exe
 #############################################
 # Folder: D:/.Code/.work/cmake-build-debug
 
-build all: phony 1_15_A.exe L1_001.exe L1_002.exe 1_18_A.exe 1_18_B.exe 1_27_A.exe 1_30_A.exe 1_30_B.exe 2_6_A.exe 2_6_C.exe 2_11_A.exe 2_11_B.exe 2_13_A.exe 2_13_B.exe 2_13_C.exe 2_13_D.exe 2_15_A.exe 2_15_B.exe 2_15_C.exe 2_18_A.exe 2_18_B.exe 2_18_C.exe flagB.exe 2_23_A.exe 2_23_B.exe
+build all: phony 1_15_A.exe L1_001.exe L1_002.exe 1_18_A.exe 1_18_B.exe 1_27_A.exe 1_30_A.exe 1_30_B.exe 2_6_A.exe 2_6_C.exe 2_11_A.exe 2_11_B.exe 2_13_A.exe 2_13_B.exe 2_13_C.exe 2_13_D.exe 2_15_A.exe 2_15_B.exe 2_15_C.exe 2_18_A.exe 2_18_B.exe 2_18_C.exe flagB.exe 2_23_A.exe 2_23_B.exe 2_23_C.exe 2_27_A.exe 2_27_B.exe 2_27_C.exe T2_29B.exe T2_29C.exe T2_29D.exe T2_29E.exe test.exe T2_29F.exe 3_1_A.exe 3_1_B.exe T_3_7_A.exe T_3_7_B.exe T_3_7_E.exe L1_003.exe L1_004.exe L1_005.exe L1_006.exe CrackMe.exe T3_9_A.exe T3_9_B.exe
 
 # =============================================================================
 # Built-in targets
