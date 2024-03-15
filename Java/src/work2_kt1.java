@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Test {
+public class work2_kt1 {
     public static void main(String[] args) {
         System.out.printf("Ques:");
         Scanner input = new Scanner(System.in);

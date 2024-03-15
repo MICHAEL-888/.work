@@ -5,52 +5,50 @@
 
 #define endl '\n'
 using namespace std;
-int q[5001][5001] = {0};
-const int X = 5001;
-int f[X];
+
+int fa[10000];
 
 int find(int x) {
-    if (x != f[x]) {
-        return f[x] = find(f[x]);
+    if (fa[x] == x) {
+        return x;
+    } else {
+        fa[x] = find(fa[x]);
+        return fa[x];
     }
-    return f[x];
 }
 
-void join(int x, int y) {
-    int fx = find(x), fy = find(y);
-    if (fx != fy) {
-        f[fy] = fx;
-    }
+void merge(int x, int y) {
+    fa[find(x)] = find(y);
 }
 
 int main() {
     int n, m, p;
     cin >> n >> m >> p;
-    int q1, q2;
-    for (int i = 1; i <= X; i++) {
-        f[i] = i;
+    for (int i = 1; i <= n; i++) {
+        fa[i] = i;
     }
 
     for (int i = 0; i < m; i++) {
-        cin >> q1 >> q2;
-        join(q1, q2);
+        int x, y;
+        cin >> x >> y;
+        merge(x, y);
     }
 
-    int pi, pj, temp;
-    vector<int> kk1;
-    vector<int> kk2;
+    vector<int> q1;
+    vector<int> q2;
     for (int i = 0; i < p; i++) {
-        int temp1, temp2;
-        cin >> temp1 >> temp2;
-        kk1.push_back(temp1);
-        kk2.push_back(temp2);
+        int x, y;
+        cin >> x >> y;
+        q1.push_back(x);
+        q2.push_back(y);
     }
     for (int i = 0; i < p; i++) {
-        if (f[find(kk1[i])] == find(kk2[i])) {
+        if (find(q1[i]) == find(q2[i])) {
             cout << "Yes" << endl;
         } else {
             cout << "No" << endl;
         }
     }
+    return 0;
 
 }
