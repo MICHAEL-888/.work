@@ -1,24 +1,10 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 
-#define endl '\n'
-using namespace std;
-
-void solve() {
-
-}
-
-
-signed main(void) {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-
-    int t = 1;
-    cin >> t;
-
-    while (t--) {
-        solve();
-    }
-
-    return 0;
+int main()
+{
+    std::cout << "你好"<<std::endl;
+    std::string Path;
+    std::getline(std::cin, Path);
+    std::cout << Path << std::endl;
 }

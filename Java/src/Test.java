@@ -1,80 +1,51 @@
-import java.util.Scanner;
-import java.util.Arrays;
-
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 public class Test {
-    public static void main(String[] args) {
-        System.out.printf("Ques:");
-        Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
-        if (num == 1)
-            One();
-        else if (num == 2)
-            Two();
-        else if (num == 3)
-            Three();
-    }
-
-    public static void One() {
-        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int sum = 0;
-        Arrays.sort(arr);
-        for (int i = 0; i < arr.length; i++)
-            sum += arr[i];
-        System.out.printf("MAX_VALUE = %d\n", arr[arr.length - 1]);
-        System.out.printf("MIN_VALUE = %d\n", arr[0]);
-        System.out.printf("AVR = %.2f\n", (double) sum / 10.0);
-        System.out.printf("SUM = %d\n", sum);
-
-    }
-
-    public static void Two() {
-        int arr[] = new int[10];
-        System.out.printf("Input Data:\n");
-        for (int i = 0; i < arr.length; i++) {
-            Scanner input = new Scanner(System.in);
-            arr[i] = input.nextInt();
+    public static void main(String[] args) throws IOException {
+        File file1=new File("F:\\javaTest\\a.txt");//1. 使用构造方法创建对象
+        File file2=new File("F:/javaTest/a.txt");
+        // 通过成员方法，使用对象
+        System.out.println("可写吗？"+file1.canWrite());
+        long size=file1.length();//读取文件容量，大小
+        System.out.println("大小："+size+"字节Byte");
+        String path=file1.getPath();
+        System.out.println("path="+path);
+        String parent=file1.getParent();
+        System.out.println("parent="+parent);
+        //创建File对象，指向目录（文件夹）
+        File dir=new File("F:/javaTest");
+        File dir1=new File("C:/");
+        System.out.println("dir 是否是目录？"+dir.isDirectory());
+        //查看目录中有哪些文件和文件夹
+        String fileList[]=dir.list();
+        File fileList1[]=dir.listFiles();
+        if (fileList != null) {
+            for(int i=0;i<fileList.length;i++) {
+                if (fileList1 != null) {
+                    System.out.println(fileList1[i]);
+                }
+            }//
         }
-        int sum = 0;
-        Arrays.sort(arr);
-        for (int i = 0; i < arr.length; i++)
-            sum += arr[i];
-        System.out.printf("MAX_VALUE = %d\n", arr[arr.length - 1]);
-        System.out.printf("MIN_VALUE = %d\n", arr[0]);
-        System.out.printf("AVR = %.2f\n", (double) sum / 10.0);
-        System.out.printf("SUM = %d\n", sum);
-    }
-
-    public static void Three() {
-        System.out.printf("Input Count of Students:\n");
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        int sum = 0, temp = 0;
-        int arr[] = new int[n];
-        System.out.printf("Input Students' Marks:\n");
-        //分数校验部分
-        for (int i = 0; i < arr.length; i++) {
-            temp = input.nextInt();
-            while (temp < 0 || temp > 100) {
-                System.out.printf("Invalid value,Please re-enter[0~100]：\n");
-                temp = input.nextInt();
-            }
-            arr[i] = temp;
+        // 从文件中读取数据
+        FileReader reader1=new FileReader(file1);
+        // 读数据 FileReader 只提供读单个字符的方法，为了读一行，采用缓冲流
+        BufferedReader br=new BufferedReader(reader1);
+        String line=br.readLine();
+        while(line!=null) {
+            System.out.println(line);
+            line=br.readLine();
         }
-        int max = 0, min = 99;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] >= max)
-                max = arr[i];
-            if (arr[i] <= min)
-                min = arr[i];
-        }
-        for (int i = 0; i < arr.length; i++)
-            sum += arr[i];
-        Arrays.sort(arr);
-        System.out.printf("MAX_MARKS = %d\n", arr[arr.length - 1]);
-        System.out.printf("MIN_MARKS = %d\n", arr[0]);
-        System.out.printf("AVR_MARKS = %.2f\n", (double) sum / (double) n);
-        for (int i = 0; i < arr.length; i++)
-            System.out.printf("MARKS%d = %d\n", i + 1, arr[i]);
 
-    }
-}
+
+
+    }// main方法
+}//
+
+
+
+
+
+
