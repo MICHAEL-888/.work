@@ -1,24 +1,31 @@
 #include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <cstring>
+#include <iterator>
+#include <vector>
+#include <utility>
+#include <queue>
+#include <deque>
+#include <map>
+#include <set>
+#include <stack>
 
 #define endl '\n'
 using namespace std;
+using ll = long long;
 
-void solve() {
-
-}
-
-
-signed main(void) {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-
-    int t = 1;
-    cin >> t;
-
-    while (t--) {
-        solve();
+int main() {
+    vector<int>q(5);
+    for (int i = 0; i < 5; i++) {
+        q[i]=i;
     }
+    reverse(q.begin(),q.end());
+    for(auto&p : q){
+        cout << p << endl;
+    }
+    long double n;
 
-    return 0;
+
 }
